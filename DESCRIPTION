@@ -1,0 +1,31 @@
+Package: helpai
+Type: Package
+Version: 0.1.0
+Title: 'SciViews::R' - Simplified Help Pages in R Thanks to AI
+Description: R help page written by AI engines (LLMs).
+Authors@R: c(person("Philippe", "Grosjean", role = c("aut", "cre"),
+  email = "phgrosjean@sciviews.org",
+  comment = c(ORCID = "0000-0002-2694-9471")))
+Maintainer: Philippe Grosjean <phgrosjean@sciviews.org>
+Depends:
+    R (>= 4.2.0)
+Imports:
+    httr2 (>= 1.0.1),
+    roxygen2 (>= 7.3.1),
+    utils (>= 4.2.0)
+Suggests:
+    covr (>= 3.5.0),
+    knitr (>= 1.42),
+    rmarkdown (>= 2.21),
+    spelling (>= 2.2.1),
+    testthat (>= 3.0.0)
+License: MIT + file LICENSE
+URL: https://github.com/SciViews/helpai, https://www.sciviews.org/helpai/, https://sciviews.r-universe.dev/helpai
+BugReports: https://github.com/SciViews/helpai/issues
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+VignetteBuilder: knitr
+Encoding: UTF-8
+Language: en-US
+ByteCompile: yes
+Config/testthat/edition: 3

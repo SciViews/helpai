@@ -1,7 +1,56 @@
-# {helpai} : Simplified help pages in R thanks to AI
 
-The {helpai} package is currently under development. The main functions are being migrated from various packages used for the initial developments.
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 
-The functions [ai_ask(), ai_explain_term(), ai_explain_function(), ai_explain_code(), and ai_explain_error()](https://www.sciviews.org/SciViews/reference/ai_ask.html) are currently available in the SciViews GitHub repository.
+# ‘SciViews::R’ - Simplified Help Pages in R Thanks to AI <a href="https://www.sciviews.org/helpai"><img src="man/figures/logo.png" align="right" height="138"/></a>
 
-An RStudio add-in that uses the functions mentioned above is currently available in the [BioDataScience](https://github.com/BioDataScience-Course/BioDataScience) repository.
+<!-- badges: start -->
+
+[![R-CMD-check](https://github.com/SciViews/helpai/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/SciViews/helpai/actions/workflows/R-CMD-check.yaml)
+[![codecov](https://codecov.io/gh/SciViews/helpai/branch/main/graph/badge.svg?token=6FYPRdhoFJ)](https://app.codecov.io/gh/SciViews/helpai?branch=main)
+[![CRAN
+Status](https://www.r-pkg.org/badges/version/helpai)](https://cran.r-project.org/package=helpai)
+[![r-universe
+status](https://sciviews.r-universe.dev/badges/helpai)](https://sciviews.r-universe.dev/helpai)
+[![License:
+MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+<!-- badges: end -->
+
+The {helpai} provides functions `ai_ask()`, `ai_explain_term()`,
+`ai_explain_function()`, `ai_explain_code()`, and `ai_explain_error()`.
+
+An RStudio add-in that uses the functions mentioned above is also
+available in the
+[BioDataScience](https://github.com/BioDataScience-Course/BioDataScience)
+repository.
+
+## Installation
+
+You can install the development version of {helpai} from
+[GitHub](https://github.com/) with:
+
+``` r
+# install.packages("pak")
+pak::pak("SciViews/helpai")
+```
+
+## Example
+
+This is a basic example. It will work if you have an Ollama procees
+serving locally (without extra configuration):
+
+``` r
+library(helpai)
+ai_ask("What is data science?")
+```
+
+For further instructions, please, refer to these help pages at
+<https://www.sciviews.org/helpai/>.
+
+## Code of Conduct
+
+Please note that the {helpai} package is released with a [Contributor
+Code of
+Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
