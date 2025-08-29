@@ -3,7 +3,7 @@ pkgdown: 2.1.3
 pkgdown_sha: ~
 articles:
   helpai: helpai.html
-last_built: 2025-08-28T17:58Z
+last_built: 2025-08-29T06:08Z
 urls:
   reference: https://www.sciviews.org/helpai/reference
   article: https://www.sciviews.org/helpai/articles
