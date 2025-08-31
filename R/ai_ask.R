@@ -213,7 +213,7 @@ ai_ask <- function(question, context = NULL,
   options(SciViews.chatbot.page = page)
 
   # Display the chatbot help page with question, answer and examples inserted
-  print(help(paste0("chatbot", page), package = "SciViews"))
+  print(help(paste0("chatbot", page), package = "helpai"))
 
   # Return the answer invisibly
   invisible(chat_data$answer)

@@ -1,6 +1,6 @@
 Package: helpai
 Type: Package
-Version: 0.1.0
+Version: 0.1.1
 Title: 'SciViews::R' - Simplified Help Pages in R Thanks to AI
 Description: R help page written by AI engines (LLMs).
 Authors@R: c(person("Philippe", "Grosjean", role = c("aut", "cre"),
